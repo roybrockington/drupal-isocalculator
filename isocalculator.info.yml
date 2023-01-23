@@ -1,0 +1,7 @@
+name: IsoAcoustics Calculator
+type: module
+description: Shows the IsoAcoustics calculator as a block on relevant product pages
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - drupal:block

@@ -1,0 +1,43 @@
+.bg-iso {
+  background-color: #12B051;
+}
+
+.iso_overlay {
+  position: fixed;
+  z-index: 222;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(150,150,150,0.5);
+  overflow-y: scroll;
+}
+
+.iso_content {
+  width: 70%;
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  z-index: 333;
+  opacity: rgba(150,150,150,1);
+}
+
+#isoacoustics-iframe {
+  width:100%;
+  border: 0;
+}
+
+.iso_close {
+  float: right;
+}
+
+/*Responsive Only*/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .iso_content {
+    width: 75%;
+  }
+}
