@@ -6,7 +6,6 @@ const clickClose = () => {
 }
 
 const clickStart = () => {
-  console.log(isoOverlay.style)
   isoOverlay.classList.remove('d-none')
   isoOverlay.classList.add('d-block')
   closeButton.onclick = clickClose
